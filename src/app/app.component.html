@@ -1,0 +1,9 @@
+<hello name="{{ name }}"></hello>
+<p>Start editing to see some magic happen :)</p>
+<label>Name</label>
+<input #text type="text" />
+<div>
+  <button type="submit" (click)="display(text.value)">submit</button>
+</div>
+
+<app-child [message]="messagedata" [inputMessage]="inputvision"></app-child>
