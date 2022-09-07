@@ -10,5 +10,6 @@ export class ChildComponent implements OnInit {
 
   @Input() message: string = '';
   @Input() inputMessage: string = '';
+  @Input() message2:string="";
   ngOnInit() {}
 }

@@ -5,5 +5,14 @@
 <div>
   <button type="submit" (click)="display(text.value)">submit</button>
 </div>
+<br />
+<input type="text" [(ngModel)]="messagedata" />
+<br />
+<br />
+<input type="text" [(ngModel)]="message2data" />
 
-<app-child [message]="messagedata" [inputMessage]="inputvision"></app-child>
+<app-child
+  [message]="messagedata"
+  [inputMessage]="inputdata"
+  [message2]="message2data"
+></app-child>

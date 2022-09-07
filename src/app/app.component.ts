@@ -7,11 +7,13 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular ' + VERSION.major;
-  inputvision: string;
+  inputdata: string;
 
   messagedata: string = 'hello im parent component';
 
+  message2data: string = '';
+
   display(text: any) {
-    this.inputvision = text;
+    this.inputdata = text;
   }
 }
